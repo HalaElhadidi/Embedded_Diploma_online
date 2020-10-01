@@ -1,0 +1,249 @@
+17:41:32 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:41:35 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -o ex6.exe "src\\ex6.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:41:39 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -o ex6.exe "src\\ex6.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+17:42:50 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex6.o" "..\\src\\ex6.c" 
+gcc -o ex6.exe "src\\ex6.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:42:54 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -o ex6.exe "src\\ex6.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+17:43:39 **** Rebuild of configuration Debug for project ex_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex_6.o" "..\\src\\ex_6.c" 
+gcc -o ex_6.exe "src\\ex_6.o" 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+17:45:19 **** Incremental Build of configuration Debug for project ex_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex_6.o" "..\\src\\ex_6.c" 
+gcc -o ex_6.exe "src\\ex_6.o" 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex_6
+17:52:46 **** Rebuild of configuration Debug for project ex_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex_7.o" "..\\src\\ex_7.c" 
+gcc -o ex_7.exe "src\\ex_7.o" 
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex_6
+17:53:34 **** Incremental Build of configuration Debug for project ex_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex_7.o" "..\\src\\ex_7.c" 
+gcc -o ex_7.exe "src\\ex_7.o" 
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:06:02 **** Rebuild of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+..\src\ex8.c: In function 'main':
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |   scanf("%c",operation);
+      |          ~^  ~~~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+..\src\ex8.c:43:6: error: 'default' label not within a switch statement
+   43 |      default :
+      |      ^~~~~~~
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:06:15 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+..\src\ex8.c: In function 'main':
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |   scanf("%c",operation);
+      |          ~^  ~~~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+..\src\ex8.c:43:13: error: expected ':' before ';' token
+   43 |      default ;
+      |             ^~
+      |             :
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:06:20 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+..\src\ex8.c: In function 'main':
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |   scanf("%c",operation);
+      |          ~^  ~~~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+..\src\ex8.c:43:13: error: expected ':' before 'printf'
+   43 |      default
+      |             ^
+      |             :
+   44 |       printf("error!!! and try again");
+      |       ~~~~~~ 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:06:28 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+..\src\ex8.c: In function 'main':
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |   scanf("%c",operation);
+      |          ~^  ~~~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+..\src\ex8.c:43:13: error: expected ':' before 'printf'
+   43 |      default
+      |             ^
+      |             :
+   44 |       printf("error!!! and try again");
+      |       ~~~~~~ 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:06:43 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+..\src\ex8.c: In function 'main':
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |   scanf("%c",operation);
+      |          ~^  ~~~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+..\src\ex8.c:20:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+..\src\ex8.c:20:3: warning: 'operation' is used uninitialized in this function [-Wuninitialized]
+   20 |   scanf("%c",operation);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+gcc -o ex8.exe "src\\ex8.o" 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex8
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:07:54 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+gcc -o ex8.exe "src\\ex8.o" 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex8
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:08:55 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+gcc -o ex8.exe "src\\ex8.o" 
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex8
+Info: Nothing to build for ex8
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:10:17 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+18:10:21 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:10:31 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:12:57 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+18:13:00 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+18:13:36 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex8.o" "..\\src\\ex8.c" 
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+18:13:38 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+18:14:43 **** Rebuild of configuration Debug for project ex_8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex_8.o" "..\\src\\ex_8.c" 
+gcc -o ex_8.exe "src\\ex_8.o" 
+Info: Nothing to build for ex_8
+Info: Nothing to build for ex_8
+Info: Nothing to build for ex_8
+Info: Nothing to build for ex4
+Info: Nothing to build for ex5
+Info: Nothing to build for ex_6
+Info: Nothing to build for ex_7
+Info: Nothing to build for ex_8

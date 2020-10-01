@@ -1,0 +1,8 @@
+18:13:38 **** Incremental Build of configuration Debug for project ex8 ****
+Info: Internal Builder is used for build
+gcc -o ex8.exe "src\\ex8.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+18:13:39 Build Finished (took 322ms)
+

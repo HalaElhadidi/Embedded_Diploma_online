@@ -1,0 +1,8 @@
+17:42:54 **** Incremental Build of configuration Debug for project ex6 ****
+Info: Internal Builder is used for build
+gcc -o ex6.exe "src\\ex6.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ex6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+17:42:54 Build Finished (took 266ms)
+
