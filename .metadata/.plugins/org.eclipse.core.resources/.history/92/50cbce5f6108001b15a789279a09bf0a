@@ -1,0 +1,60 @@
+/*
+ ============================================================================
+ Name        : Ex_3.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define row 10
+#define col 10
+int main(void) {
+	int x[row][col];
+	int y[row][col];
+	int i,j,ROW,COL;
+	printf("enter the matrix size");
+	fflush(stdout);
+	scanf("%d %d",&ROW,&COL);
+	while(ROW>row && COL>col)
+	{
+		printf("ERROR!!! and try again");
+			fflush(stdout);
+			scanf("%d %d",&ROW,&COL);
+	}
+	printf("enter the matrix ");
+	fflush(stdout);
+	for(i=0;i<ROW;i++)
+	{
+		for(j=0;j<COL;j++)
+		{
+			scanf("%d",&x[i][j]);
+		}
+
+	}
+	for(i=0;i<COL;i++)
+	{
+		for(j=0;j<ROW;j++)
+		{
+			printf("%d",x[i][j]);
+			if(j==1)
+			 printf("\n");
+		}
+
+	}
+	for(j=0;j<2;j++)
+	{
+		for(i=0;i<2;i++)
+		{
+			y[j][i]=x[i][j];
+			printf("%d",y[j][i]);
+			if(i==1)
+			 printf("\n");
+		}
+
+	}
+	return 0;
+}

@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : Ex2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define num 100
+int main(void) {
+	int x [num],i,n,sum=0;
+	float average;
+	printf ("enter required size of array");
+	fflush(stdout);
+	scanf("%d",&n);
+	while(n>100 && n<1)
+	{
+		printf("error try again with range between 1 to 100");
+		scanf("%d",&n);
+	}
+	printf ("enter required number");
+	fflush(stdout);
+	for (i=0;i<=n;i++)
+	{
+	scanf("%d",&x[i]);
+	sum = sum + x[i];
+	}
+printf ("%d",sum);
+	 /*average=sum/n;
+	printf("average = %f",average);*/
+	return 0;
+}

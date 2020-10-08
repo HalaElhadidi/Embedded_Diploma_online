@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : strings_Ex1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char x[]={"this website is awesome"},n;
+	int i,j;
+	printf("enter char");
+	fflush(stdout);
+	scanf("%c",&n);
+	for (i=0;i<=strlen(x);i++)
+	{
+	if (n == x[i])
+	{
+		j=j+1;
+	}
+	printf("%d",j);
+	}
+	return 0;
+}

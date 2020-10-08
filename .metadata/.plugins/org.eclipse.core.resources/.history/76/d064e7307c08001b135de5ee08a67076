@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : strings_Ex1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define size 30
+int main(void) {
+	char x[size],n;
+	int i,j;
+	printf("enter a string");
+	fflush(stdout);
+	scanf("%s",x);
+
+	printf("enter char");
+	fflush(stdout);
+	scanf("%c",&n);
+	while (x[size]!= '\0')
+	{
+	if (n == x[i])
+	{
+		j=j+1;
+	}
+	printf("%d",j);
+	}
+	return 0;
+}

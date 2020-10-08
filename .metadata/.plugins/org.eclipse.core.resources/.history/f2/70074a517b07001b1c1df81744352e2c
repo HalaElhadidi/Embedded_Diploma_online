@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : Ex_1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+int x[2][2];
+int y[2][2];
+int z[2][2];
+int i , j ;
+printf("enter first matrix");
+for (i=0;i<2;i++)
+{
+	for(j=0;j<2;j++)
+	{
+	    fflush(stdout);
+		scanf("%d",&x[i][j]);
+	}
+}
+printf("enter second matrix");
+for (i=0;i<2;++i)
+{
+	for(j=0;j<2;++j)
+	{
+	    fflush(stdout);
+		scanf("%d",&y[i][j]);
+	}
+}
+for(i=0;i<2;++i)
+{
+	for(j=0;j<2;++j)
+	{
+		printf("%d \t",x[i][j]+y[i][j]);
+		if (j==1)
+		{printf ("\n");
+
+	}
+}
+
+return 0;
+}
