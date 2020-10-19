@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Ex_3.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+char reverse (char *ptr)
+{
+	if (ptr != '\n')
+	{
+		reverse();
+		printf("%c",ptr);
+	}
+}
+int main(void) {
+	char x[20];
+	printf("enter sentence");
+	scanf("%c",x);
+	reverse(x);
+	return 0;
+}

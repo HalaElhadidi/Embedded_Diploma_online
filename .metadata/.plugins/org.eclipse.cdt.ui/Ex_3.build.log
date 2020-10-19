@@ -1,0 +1,8 @@
+07:42:54 **** Incremental Build of configuration Debug for project Ex_3 ****
+Info: Internal Builder is used for build
+gcc -o Ex_3.exe "src\\Ex_3.o" 
+c:/users/lenovo/gcc/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+07:42:54 Build Finished (took 316ms)
+
