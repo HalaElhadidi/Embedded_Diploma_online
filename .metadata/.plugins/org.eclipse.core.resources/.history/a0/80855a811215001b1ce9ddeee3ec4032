@@ -1,0 +1,41 @@
+/*
+ ============================================================================
+ Name        : Ex_2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+struct SDist
+{
+	int feet;
+	float inch;
+}d1,d2;
+int main(void) {
+    int feet_sum,inch_sum;
+	printf("enter 1st dist \n fisrt enter feet");
+	fflush(stdout);
+	scanf("%d",&d1.feet);
+	printf("enter inch");
+	fflush(stdout);
+	scanf("%f",&d1.inch);
+	printf("enter 2nd dist \n fisrt enter feet");
+	fflush(stdout);
+	scanf("%d",&d2.feet);
+	printf("enter inch");
+	fflush(stdout);
+	scanf("%f",&d2.inch);
+	feet_sum = d1.feet + d2.feet;
+	inch_sum = d1.inch + d2.inch;
+	if (inch_sum>=12)
+	{
+		inch_sum -= 12;
+		feet_sum++;
+	}
+	printf ("sum of distance = %d' %f"" ",inch_sum,feet_sum)
+	return 0;
+}

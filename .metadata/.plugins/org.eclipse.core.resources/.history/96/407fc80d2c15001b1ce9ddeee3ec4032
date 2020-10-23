@@ -1,0 +1,56 @@
+/*
+ ============================================================================
+ Name        : Ex_4.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+struct student
+{
+	int roll;
+	char name[10];
+	int mark;
+};
+int i;
+struct student data (void)
+{
+
+	struct student info[10] ;
+	printf("enter student data");
+	fflush (stdout);
+	for (i=0;i<10;i++)
+	{   printf(" roll number");
+	    fflush(stdout);
+		scanf("%d",&info[i].roll);
+		printf("student name");
+	     fflush(stdout);
+	   scanf("%s",&info[i].name);
+	   printf("student marks");
+	   	    fflush(stdout);
+	   		scanf("%d",&info[i].mark);
+
+	}
+	return info[i];
+}
+void print (struct student info[])
+{
+	for(i=0;i<10;i++)
+	{
+		printf("student roll:%d\n student name: %s student mark \n %d",info[i].roll,info[i].name,info[i].mark);
+	}
+}
+int main(void) {
+	struct student student_data [10];
+	for (i=0;i<10;i++)
+	{
+	student_data[i]=data();
+	print(student_data);
+	}
+
+	return 0;
+}

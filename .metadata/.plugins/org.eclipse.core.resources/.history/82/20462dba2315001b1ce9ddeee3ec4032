@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : Ex_3.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct complex
+{
+	float real;
+	float img;
+}d1,d2,sum;
+int main(void) {
+	s
+	return 0;
+}
