@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : Ex5.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+	struct data
+	{
+		char Employee_Name[6] ;
+		int Employee_ID;
+	};
+int main(void) {
+
+	struct data   employee1 = {"alex",123};
+	struct data   employee2 = {"john",456};
+
+	return 0;
+}

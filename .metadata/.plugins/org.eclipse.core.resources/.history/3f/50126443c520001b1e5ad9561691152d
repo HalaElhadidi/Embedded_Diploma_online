@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : Ex1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int m ;
+	m = 29;
+	printf("address of m %x \n value of m %d",&m,m);
+	int *ap = &m;
+	printf("address of pointer ap %x pointer content %d",ap,*ap);
+	return 0;
+}

@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Ex3.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+char x[10],i,*ptr,j;
+printf("input a string");
+fflush(stdout);
+scanf("%s",x);
+for (i=0 ; i<=10;i++)
+	if (x[i]=='\0')
+	{
+		ptr = &x[i-1];
+		j=i;
+		break;
+
+	}
+for (i=0 ; i<=j;i++)
+{
+printf("%c",*ptr);
+ptr--;
+}
+	return 0;
+}
